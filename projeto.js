@@ -1,5 +1,3 @@
-//reescrever o código abaixo de maneira que ele
-//imprima as informações de maneira correta, que faça sentido e sem erros
 
 let numeroUm = 1
 let stringUm = '1'
@@ -14,7 +12,7 @@ if ( numeroUm === stringUm) {
     console.log('As variáveis numeroUm e stringUm não tem o mesmo valor');
   }
   
-  if (numeroTrinta === stringTrinta) {
+  if (numeroTrinta == stringTrinta) {
     console.log('As variáveis numeroTrinta e stringTrinta tem o mesmo valor e mesmo tipo');
   } else {
     console.log('As variáveis numeroTrinta e stringTrinta não tem o mesmo tipo');
